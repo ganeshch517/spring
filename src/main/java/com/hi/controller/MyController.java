@@ -40,10 +40,4 @@ public class MyController {
 	public ResponseEntity<?> deletePersonById(@PathVariable int id) {
 		return service.deletePersonById(id);
 	}
-	
-	
-	
-	
-	
-	
 }
